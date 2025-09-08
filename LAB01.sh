@@ -22,7 +22,10 @@ sudo passwd dev_senior
 sudo passwd dev_junior
 sudo passwd qa_analyst
 
-dev_senior: desenvolvedores
+su - dev_junior
+
+senha: devjunior
+$
 
 #4. Estrutura de diretórios
 
