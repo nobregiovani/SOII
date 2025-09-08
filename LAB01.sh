@@ -51,7 +51,11 @@ backend frontend
 sudo chown -R dev_senior:desenvolvedores /srv/projetos
 sudo chmod -R 750 /srv/projetos
 
+ls -l /srv/projetos
+total 0
+drwxr-x--- 1 dev_senior desenvolvedores 30 set 1 16:55 projetos
 
+ls: não foi possível abrir o diretório '/srv/projetos': Permissão negada
 
 #6. Controle de processos
 
