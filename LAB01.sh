@@ -29,7 +29,9 @@ dev_senior: desenvolvedores
 sudo mkdir -p /srv/projetos/backend
 sudo mkdir -p /srv/projetos/frontend
 
+dir /srv/projetos
 
+backend frontend
 
 #5. Gerenciamento de permissões
 
