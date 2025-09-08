@@ -62,4 +62,10 @@ ls: não foi possível abrir o diretório '/srv/projetos': Permissão negada
 login dev_junior
 sleep 500 &
 ps aux | grep sleep
+jobs
+sudo kill 1
+
+$
+
+$
 
