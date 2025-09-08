@@ -66,6 +66,3 @@ jobs
 sudo kill 1
 
 $
-
-$
-
