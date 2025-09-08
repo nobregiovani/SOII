@@ -59,7 +59,7 @@ ls: não foi possível abrir o diretório '/srv/projetos': Permissão negada
 
 #6. Controle de processos
 
-login Robson
+login dev_junior
 sleep 500 &
 ps aux | grep sleep
 
