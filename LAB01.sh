@@ -60,9 +60,28 @@ ls: não foi possível abrir o diretório '/srv/projetos': Permissão negada
 #6. Controle de processos
 
 login dev_junior
+login: Não é possível sem root
+
+sudo login dev_junior
 sleep 500 &
 ps aux | grep sleep
 jobs
 sudo kill 1
 
 $
+
+#7. Shell Script de Boas-vindas
+
+cd usr/local/bin/boasvindas.sh
+
+sudo touch boasvindas.sh
+sudo nano boasvindas.sh
+
+#!/bin/bash 
+echo '==========================================' 
+echo 'Bem-vindo(a) ao Servidor de Desenvolvimento!' 
+echo "Data e hora atual: $(date)" 
+echo '=========================================='
+
+sudo chmod 755 /usr/local/bin/boasvindas.sh
+
