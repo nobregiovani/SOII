@@ -4,7 +4,7 @@ sudo apt-get update
 sudo apt-get install openssh-server
 
 sudo systemctl status ssh
-Active: inactive (dead)
+Active: ative (running) since Fri 2025-009-12 14:47:12 -03; 7min ago
 
 #2. Acesso inicial (Validação)
 
