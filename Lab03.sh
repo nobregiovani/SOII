@@ -38,8 +38,15 @@ writable = yes
 #5. Reiniciar e testar
 
 sudo systemctl restart smbd
+#output
+enable; preset: enabled
+active: active (running) since Mon 2025-09-15 14:36:40 -03; 4min 12s ago
 
 sudo systemctl restart nmbd
+#output
+enable; preset: enabled
+active: active (running) since Mon 2025-09-15 14:37:11 -03; 11min ago
+
 
 testparm
 Load smb config files from /etc/samba/smb.conf
