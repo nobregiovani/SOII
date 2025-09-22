@@ -16,6 +16,9 @@ iptables -A INPUT -p tcp --dport 53 -j ACCEPT
 echo "Firewall configurado!"
 iptables -L -n -v
 
+chmod +x firewall.sh
+sudo ./firewall.sh
+
 #2. Instalar e Configurar o Proxy(Squid)
 
 sudo apt-get install squid
